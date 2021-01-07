@@ -1,4 +1,4 @@
-# accordion-test
+# javascript-accordion
 
 An accordion component that displays headings, which when clicked/opened, shows related content. Only one heading can be open at a time.
 
