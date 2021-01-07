@@ -1,6 +1,6 @@
 var acordions = document.getElementsByClassName("accordion-header");
 var panel = document.getElementsByClassName('accordion-body');
-var sectionText = document.getElementsByClassName('s1');
+var sectionText = document.getElementsByClassName('section-list');
 var text;
 var sections;
 
