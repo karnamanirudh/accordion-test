@@ -4,19 +4,17 @@ var sectionText = document.getElementsByClassName('section-list');
 var text;
 var sections;
 
-
 window.onload = function () {
     document.getElementById('section-list').style.display = 'none';
 };
-for (var i = 0; i < acordions.length; i++) {
 
+for (var i = 0; i < acordions.length; i++) {
     acordions[i].addEventListener('click', function () {
         var setClasses = !this.classList.contains('active');
         var sectionIndicatorText = document.getElementById('section');
         setClass(acordions, 'active', 'remove');
         setClass(panel, 'show', 'remove');
-
-        
+       
         sectionIndicatorText.style.display = 'block';
         document.getElementById('section-list').style.display = 'none';
 
